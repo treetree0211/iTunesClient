@@ -19,6 +19,7 @@
 		79F622851F0C182600EE562A /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F622841F0C182600EE562A /* Album.swift */; };
 		79F622871F0C21AB00EE562A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F622861F0C21AB00EE562A /* Song.swift */; };
 		79F622891F0C2E6900EE562A /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F622881F0C2E6900EE562A /* Stub.swift */; };
+		79F6228B1F0C32B800EE562A /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6228A1F0C32B800EE562A /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		79F622841F0C182600EE562A /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		79F622861F0C21AB00EE562A /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		79F622881F0C2E6900EE562A /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		79F6228A1F0C32B800EE562A /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				79F6227E1F0C14ED00EE562A /* Views */,
 				79F6227D1F0C14D300EE562A /* Models */,
 				79F6224F1F0C131A00EE562A /* AppDelegate.swift */,
-				79F622511F0C131A00EE562A /* ViewController.swift */,
 				79F622531F0C131A00EE562A /* Main.storyboard */,
 				79F622561F0C131A00EE562A /* Assets.xcassets */,
 				79F622581F0C131A00EE562A /* LaunchScreen.storyboard */,
@@ -160,6 +161,8 @@
 		79F6227F1F0C14FD00EE562A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				79F622511F0C131A00EE562A /* ViewController.swift */,
+				79F6228A1F0C32B800EE562A /* SearchResultsController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				79F622811F0C152000EE562A /* Artist.swift in Sources */,
 				79F622521F0C131A00EE562A /* ViewController.swift in Sources */,
 				79F622501F0C131A00EE562A /* AppDelegate.swift in Sources */,
+				79F6228B1F0C32B800EE562A /* SearchResultsController.swift in Sources */,
 				79F622831F0C172300EE562A /* Genre.swift in Sources */,
 				79F622851F0C182600EE562A /* Album.swift in Sources */,
 				79F622891F0C2E6900EE562A /* Stub.swift in Sources */,
